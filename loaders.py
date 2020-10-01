@@ -5,7 +5,7 @@ from django.template.loaders.base import Loader as BaseLoader
 from django.template import TemplateDoesNotExist
 from django_blog_it.models import Theme
 
-
+#this is loader for loading website
 class Loader(BaseLoader):
     is_usable = True
 
