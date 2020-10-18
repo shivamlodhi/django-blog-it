@@ -19,7 +19,7 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_NAME):
         for f in filenames:
             data_files.append(os.path.join(
                 dirpath[len(PROJECT_NAME) + 1:], f))
-
+#the set is used for some changes
 setup(
     name='django-blog-it',
     version='0.3.1',
